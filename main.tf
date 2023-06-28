@@ -1,3 +1,8 @@
+/**
+ * # Terraform AWS Config Rules
+ *
+ * A set of AWS Config rules to be deployed using Terraform. Packed into submodules.
+ */
 module "acm" {
   source        = "./modules/rules/acm"
   configuration = var.acm

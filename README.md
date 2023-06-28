@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/template-terraform-module/main/docs/assets/logo.svg)](https://www.geekcell.io/)
+[![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/.github/main/geekcell-github-banner.png)](https://www.geekcell.io/)
 
 ### Code Quality
 [![License](https://img.shields.io/github/license/geekcell/terraform-aws-config-rules)](https://github.com/geekcell/terraform-aws-config-rules/blob/master/LICENSE)
@@ -7,6 +7,9 @@
 [![Release](https://github.com/geekcell/terraform-aws-config-rules/actions/workflows/release.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-config-rules/actions/workflows/release.yaml)
 [![Validate](https://github.com/geekcell/terraform-aws-config-rules/actions/workflows/validate.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-config-rules/actions/workflows/validate.yaml)
 [![Lint](https://github.com/geekcell/terraform-aws-config-rules/actions/workflows/linter.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-config-rules/actions/workflows/linter.yaml)
+
+<!--
+Comment in if Bridgecrew is configured
 
 ### Security
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-rules/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-rules&benchmark=INFRASTRUCTURE+SECURITY)
@@ -33,7 +36,11 @@
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-rules/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-rules&benchmark=HIPAA)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-config-rules/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-config-rules&benchmark=FEDRAMP+%28MODERATE%29)
 
+-->
 
+# Terraform AWS Config Rules
+
+A set of AWS Config rules to be deployed using Terraform. Packed into submodules.
 
 ## Inputs
 
@@ -62,7 +69,7 @@ No providers.
 
 
 # Examples
-### Full Example
+### Full
 ```hcl
 module "full-example" {
   source = "../.."
